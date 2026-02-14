@@ -1,0 +1,176 @@
+- organization: Ignite Refereeing
+  org_url: https://igniterefereeing.com.au
+  location: Australia
+  urls:
+  - url: https://qubes-mirror.igniterefereeing.com.au
+
+- organization: Alibaba Cloud
+  org_url: https://mirrors.aliyun.com/
+  location: China
+  urls:
+  - url: https://mirrors.aliyun.com/qubes/
+
+- organization: eScience Center, Nanjing University
+  org_url: https://sci.nju.edu.cn/
+  location: China
+  urls:
+  - url: https://mirrors.nju.edu.cn/qubes/
+  - url: rsync://mirrors.nju.edu.cn/qubes/
+
+- organization: Tsinghua University TUNA Association
+  org_url: https://tuna.moe/
+  location: China
+  urls:
+  - url: https://mirrors.tuna.tsinghua.edu.cn/qubesos/
+
+- organization: University of Cyprus, Library
+  org_url: http://library.ucy.ac.cy
+  location: Cyprus
+  urls:
+  - url: https://mirror.library.ucy.ac.cy/linux/qubes/
+
+- organization: dotsrc.org
+  org_url: https://dotsrc.org/
+  location: Denmark
+  urls:
+  - url: https://mirrors.dotsrc.org/qubes/
+
+- organization: RWTH Aachen University
+  org_url: https://www.halifax.rwth-aachen.de
+  location: Germany
+  urls:
+  - url: http://ftp.halifax.rwth-aachen.de/qubes/iso/
+
+- organization: Diyar Ciftci
+  org_url:  https://diyarciftci.xyz
+  location: Germany
+  urls:
+  - url: http://mirror.diyarciftci.xyz/qubes/
+  - url: https://mirror.diyarciftci.xyz/qubes/
+  - url: rsync://mirror.diyarciftci.xyz/qubes/
+
+- organization: Internet Provider Berlin
+  org_url:  https://www.ipb.de/
+  location: Germany
+  urls:
+  - url: http://mirror.ipb.de/qubes
+  - url: https://mirror.ipb.de/qubes
+  - url: rsync://mirror.ipb.de/qubes
+  - url: http://mirror.as20647.net/qubes
+  - url: https://mirror.as20647.net/qubes
+  - url: rsync://mirror.as20647.net/qubes
+
+- organization: University of Crete Computer Center
+  org_url: http://cc.uoc.gr/
+  location: Greece
+  urls:
+  - url: https://ftp.cc.uoc.gr/mirrors/linux/qubes/
+
+- organization: Quantum Mirror
+  org_url: https://quantum-mirror.hu/
+  location: Hungary
+  urls:
+  - url: https://quantum-mirror.hu/mirrors/pub/qubes
+
+- organization: FlokiNET
+  org_url: https://flokinet.is/
+  location: Iceland
+  urls:
+  - url: https://is.mirror.flokinet.net
+  - url: rsync://is.mirror.flokinet.net
+
+- organization: Hosthink Dedicated Servers
+  org_url: https://www.hosthink.net/
+  location: Moldova
+  urls:
+  - url: https://mirror.hosthink.net/qubes
+
+- organization: FlokiNET
+  org_url: https://flokinet.is/
+  location: Netherlands
+  urls:
+  - url: https://nl.mirror.flokinet.net
+  - url: rsync://nl.mirror.flokinet.net
+
+- organization: LAYLO
+  org_url: https://laylo.nl
+  location: Netherlands
+  urls:
+  - url: https://mirror.laylo.nl/pub/qubes/
+
+- organization: Vuln Seeker
+  org_url: https://vulnseeker.org/
+  location: Netherlands
+  urls:
+  - url: https://mirror.vulnseeker.org/pub/qubes/
+  - url: http://mirror.vulnseeker.org/pub/qubes/
+  - url: rsync://mirror.vulnseeker.org/qubes
+
+- organization: Evolution Host
+  org_url: https://evolution-host.com/
+  location: Poland
+  urls:
+  - url: https://polish-mirror.evolution-host.com/qubes/
+
+- organization: ICM, University of Warsaw
+  org_url: http://icm.edu.pl
+  location: Poland
+  urls:
+  - url: http://ftp.icm.edu.pl/pub/os/qubes/
+
+- organization: Instituto Superior Técnico, Universidade de Lisboa
+  org_url: https://ftp.rnl.tecnico.ulisboa.pt/
+  location: Portugal
+  urls:
+  - url: https://ftp.rnl.tecnico.ulisboa.pt/pub/qubesos/
+  - url: ftp://ftp.rnl.tecnico.ulisboa.pt/pub/qubesos/
+  - url: rsync://ftp.rnl.tecnico.ulisboa.pt/pub/qubesos
+
+- organization: FlokiNET
+  org_url: https://flokinet.is/
+  location: Romania
+  urls:
+  - url: https://ro.mirror.flokinet.net
+  - url: rsync://ro.mirror.flokinet.net
+
+- organization: Africloud
+  org_url: https://www.africloud.com
+  location: South Africa
+  urls:
+  - url: https://mirror.africloud.com/qubeos/
+
+- organization: Academic Computer Club in Umeå
+  org_url: http://www.accum.se/
+  location: Sweden
+  urls:
+  - url: https://mirror.accum.se/mirror/qubes-os.org/
+
+- organization: UKFast
+  org_url: https://www.ukfast.co.uk/
+  location: United Kingdom
+  urls:
+  - url: https://mirrors.ukfast.co.uk/sites/qubes-os.org/
+
+- organization: GigeNET
+  org_url: https://www.gigenet.com/
+  location: United States
+  urls:
+  - url: https://mirrors.gigenet.com/qubes/
+
+- organization: Purdue Linux Users Group
+  org_url: https://plug-mirror.rcac.purdue.edu/info.html
+  location: United States
+  urls:
+  - url: https://plug-mirror.rcac.purdue.edu/qubes/
+
+- organization: The Linux Kernel Archives
+  org_url: https://www.kernel.org/
+  location: (Distributed)
+  urls:
+  - url: https://mirrors.edge.kernel.org/qubes/iso/
+
+- organization: The Qubes OS Project
+  org_url: https://www.qubes-os.org/
+  location: (Distributed)
+  urls:
+  - url: https://ftp.qubes-os.org/iso/

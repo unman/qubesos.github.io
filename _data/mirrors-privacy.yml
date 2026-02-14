@@ -1,0 +1,24 @@
+- organization: Ignite Refereeing
+  org_url: https://igniterefereeing.com.au
+  location: Australia
+  urls:
+  - url: http://ti4mfvefw2sx2xpf2l3dpaa6iuwiors7ef3hm3nyal7xhq3chrygorqd.onion
+
+- organization: Diyar Ciftci
+  org_url:  https://diyarciftci.xyz
+  location: Germany
+  urls:
+  - url: http://5gxsihf4vjdhimiotrhchihrfujoanondrplizofwparrtmgbwsafhid.onion/qubes/
+  - url: http://iue4ubnjvskey5gop7n3odkylyjvelb5sl7z4cx6xjwdnthv2hba.b32.i2p/qubes/
+
+- organization: LAYLO
+  org_url: https://laylo.nl
+  location: Netherlands
+  urls:
+  - url: http://zqsjg25lnx7zratmne3dhbcqt5paehitom3qp2rjmwttuy7gzbzqwayd.onion/pub/qubes/
+
+- organization: The Qubes OS Project
+  org_url: https://www.qubes-os.org/
+  location: (Distributed)
+  urls:
+  - url: http://iso.qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion
