@@ -145,11 +145,11 @@
   <hr class="more-bottom">
 {% endfor %}
 <!-- Download mirrors -->
-{% assign dm = downloads-page | where_exp: "item", "item.htmlsection == 'download-mirrors'" | first %}
+{% assign dm = downloads-page | where_exp: "item", "item.htmlsection == 'mirrors-clear'" | first %}
 <div class="row">
   <div class="col-xs-12">
     <article>
-      <h3 id="mirrors">{{ dm.title }}</h3>
+      <h3 id="mirrors-clear">{{ dm.title }}</h3>
       <p>{{ dm.text }}</p>
       <table>
         <tr>
@@ -157,7 +157,38 @@
           <th>{{ dm.table[1].column }}</th>
           <th>{{ dm.table[2].column }}</th>
         </tr>
-        {% for mirror in site.data.downloads-mirrors %}
+        {% for mirror in site.data.mirrors-clear %}
+          <tr id="{{ mirror.organization | slugify }}">
+            <td><a href="{{ mirror.org_url }}">{{ mirror.organization }}</a></td>
+            <td>{{ mirror.location }}</td>
+            <td>
+              {% for url in mirror.urls %}
+                <a href="{{ url.url }}">{{ url.url | truncate: 76 }}</a><br>
+              {% endfor %}
+            </td>
+          </tr>
+        {% endfor %}
+      </table>
+      <a href="{{ dm.links[0].url }}" class="black-link">
+        <i class="fa fa-cloud fa-fw black-icon"></i>
+        {{ dm.links[0].text }}
+      </a>
+    </article>
+  </div>
+</div>
+{% assign dm = downloads-page | where_exp: "item", "item.htmlsection == 'mirrors-privacy'" | first %}
+<div class="row">
+  <div class="col-xs-12">
+    <article>
+      <h3 id="mirrors-privacy">{{ dm.title }}</h3>
+      <p>{{ dm.text }}</p>
+      <table>
+        <tr>
+          <th>{{ dm.table[0].column }}</th>
+          <th>{{ dm.table[1].column }}</th>
+          <th>{{ dm.table[2].column }}</th>
+        </tr>
+        {% for mirror in site.data.mirrors-privacy %}
           <tr id="{{ mirror.organization | slugify }}">
             <td><a href="{{ mirror.org_url }}">{{ mirror.organization }}</a></td>
             <td>{{ mirror.location }}</td>

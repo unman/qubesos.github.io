@@ -28,9 +28,12 @@
     - text: Release signing key
     - text: How to verify downloads
       url: /security/verifying-signatures/
-    - text: All download mirrors
-      url: '#mirrors'
-      hover: View all download mirrors
+    - text: Clearnet download mirrors
+      url: '#mirrors-clear'
+      hover: View all Clearnet mirrors
+    - text: Privacy friendly download mirrors
+      url: '#mirrors-privacy'
+      hover: View all Privacy friendly mirrors
 
 - htmlsection: download-mirrors
   title: Download mirrors
