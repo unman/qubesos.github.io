@@ -31,9 +31,9 @@
     - text: Clearnet download mirrors
       url: '#mirrors-clear'
       hover: View all Clearnet mirrors
-    - text: Privacy friendly download mirrors
+    - text: Privacy friendly anonymous mirrors
       url: '#mirrors-privacy'
-      hover: View all Privacy friendly mirrors
+      hover: View all Privacy friendly anonymous mirrors
 
 - htmlsection: download-mirrors
   title: Download mirrors
